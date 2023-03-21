@@ -1,7 +1,7 @@
 'use strict';
 
-const { Config, Player } = require('ranvier');
-const PlayerClass = require('../../bundle-example-classes/lib/PlayerClass');
+const { Config, Player } = require('whispermud-core');
+const PlayerClass = require('../../whispermud-classes/lib/PlayerClass');
 
 /**
  * Finish player creation. Add the character to the account then add the player
@@ -11,7 +11,7 @@ module.exports = {
   event: state => {
     const startingRoomRef = Config.get('startingRoom');
     if (!startingRoomRef) {
-      Logger.error('No startingRoom defined in ranvier.json');
+      Logger.error('No startingRoom defined in whispermud-core.json');
     }
 
     return async (socket, args) => {

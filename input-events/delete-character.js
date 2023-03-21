@@ -1,6 +1,6 @@
 'use strict';
 
-const { EventUtil, Logger } = require('ranvier');
+const { EventUtil, Logger } = require('whispermud-core');
 
 /**
  * Delete character event

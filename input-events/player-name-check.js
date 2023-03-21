@@ -1,6 +1,6 @@
 'use strict';
 
-const { EventUtil } = require('ranvier');
+const { EventUtil } = require('whispermud-core');
 
 /**
  * Confirm new player name

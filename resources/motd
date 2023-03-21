@@ -1,4 +1,4 @@
-<white>Ranvier MUD engine - Version 3.0.0 - https://ranviermud.com
+<white>Ranvier MUD engine - Version 3.0.0 - https://whispermud-coremud.com
 
                          _
                         (_)
@@ -8,7 +8,7 @@
    |_|  \__,_|_| |_|\_/ |_|\___|_| <bold><green> |    </green><white> _ __ </white><green>   |</green></bold>
                                    <bold><green> |    </green><white>| '__|</white><green>   |</green></bold>
    Barebones Node.js-based engine  <bold><green> |    </green><white>| |   </white><green>   |</green></bold>
-   github.com/RanvierMUD/ranviermud<bold><green> |    </green><white>|_|   </white><green>   |</green></bold>
+   github.com/RanvierMUD/whispermud-coremud<bold><green> |    </green><white>|_|   </white><green>   |</green></bold>
                                    <bold><green>  ' .       . '</green></bold>
                                    <bold><green>      ' . '</green></bold>
 

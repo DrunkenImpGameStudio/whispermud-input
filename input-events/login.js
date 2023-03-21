@@ -1,6 +1,6 @@
 'use strict';
 
-const { Logger } = require('ranvier');
+const { Logger } = require('whispermud-core');
 const CommonFunctions = require('../lib/CommonFunctions');
 
 module.exports = {

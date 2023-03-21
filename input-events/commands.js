@@ -1,8 +1,8 @@
 'use strict';
 
-const { Broadcast: B, CommandType, Logger, PlayerRoles, Room } = require('ranvier');
-const { NoPartyError, NoRecipientError, NoMessageError } = require('ranvier').Channel;
-const { CommandParser, InvalidCommandError, RestrictedCommandError } = require('../../bundle-example-lib/lib/CommandParser');
+const { Broadcast: B, CommandType, Logger, PlayerRoles, Room } = require('whispermud-core');
+const { NoPartyError, NoRecipientError, NoMessageError } = require('whispermud-core').Channel;
+const { CommandParser, InvalidCommandError, RestrictedCommandError } = require('../../whispermud-lib/lib/CommandParser');
 
 /**
  * Main command loop. All player input after login goes through here.
@@ -100,7 +100,7 @@ module.exports = {
           }
 
           case CommandType.SKILL: {
-            // See bundles/ranvier-player-events/player-events.js commandQueued and updateTick for when these
+            // See bundles/whispermud-core-player-events/player-events.js commandQueued and updateTick for when these
             // actually get executed
             player.queueCommand({
               execute: _ => {

@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-const { EventUtil } = require('ranvier');
+const { EventUtil } = require('whispermud-core');
 
 /**
  * MOTD event

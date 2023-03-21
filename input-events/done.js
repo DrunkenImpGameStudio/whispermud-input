@@ -1,7 +1,7 @@
 'use strict';
 
-const { Broadcast, Logger } = require('ranvier');
-const PlayerClass = require('../../bundle-example-classes/lib/PlayerClass');
+const { Broadcast, Logger } = require('whispermud-core');
+const PlayerClass = require('../../whispermud-classes/lib/PlayerClass');
 
 
 /**

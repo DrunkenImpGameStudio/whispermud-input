@@ -1,6 +1,6 @@
 'use strict';
 
-const { EventUtil } = require('ranvier');
+const { EventUtil } = require('whispermud-core');
 
 let passwordAttempts = {};
 const maxFailedAttempts = 2;

@@ -1,6 +1,6 @@
 'use strict';
 
-const { Account, EventUtil } = require('ranvier');
+const { Account, EventUtil } = require('whispermud-core');
 
 /**
  * Account creation event

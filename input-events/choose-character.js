@@ -1,6 +1,6 @@
 'use strict';
 
-const { Broadcast, Config, EventUtil, Logger } = require('ranvier');
+const { Broadcast, Config, EventUtil, Logger } = require('whispermud-core');
 
 /**
  * Account character selection event
